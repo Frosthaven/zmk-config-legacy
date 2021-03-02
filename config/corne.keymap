@@ -29,15 +29,12 @@
         &kp LALT  &mo 5 &kp SPACE &kp RET &mo 6 &kp LGUI
       >;
     };
-/*
 
-
-
+    dvorak_layer { // 1
 // _____ |  ' "  |  , <  |  . >  |   P   |   Y   ||   F   |   G   |   C   |   R   |   L   | _____
 // _____ |   A   |   O   |   E   |   U   |   I   ||   D   |   H   |   T   |   N   |   S   |  / ? 
 // _____ |  ; :  |   Q   |   J   |   K   |   X   ||   B   |   M   |   W   |   V   |   Z   | _____
 //                         _____ | _____ | _____ || _____ | _____ | _____
-    dvorak_layer { // 1
       bindings = <
         &trans &kp SQT  &kp COMMQ &kp DOT &kp P  &kp Y &kp F &kp G &kp C &kp R &kp L &trans
         &trans &kp A    &kp O     &kp E   &kp U  &kp I &kp D &kp H &kp T &kp N &kp S &kp FSLH
@@ -46,13 +43,11 @@
       >;
     };
 
-
-
+    colemak_layer { // 2
 // _____ |   Q   |   W   |   F   |   P   |   G   ||   J   |   L   |   U   |   Y   |  ; :  | _____
 // _____ |   A   |   R   |   S   |   T   |   D   ||   H   |   N   |   E   |   I   |   O   |  ' "  
 // _____ |   Z   |   X   |   C   |   V   |   B   ||   K   |   M   |  , <  |  . >  |  / ?  | _____
 //                         _____ | _____ | _____ || _____ | _____ | _____
-    colemak_layer { // 2
       bindings = <
         &trans &kp Q  &kp W  &kp F  &kp P  &kp G &kp J &kp L &kp U     &kp Y   &kp SEMI &trans
         &trans &kp A  &kp R  &kp S  &kp T  &kp D &kp H &kp N &kp E     &kp I   &kp O    &kp SQT
@@ -61,13 +56,11 @@
       >;
     };
 
-
-
+    colemak_dhm_layer { // 3
 // _____ |   Q   |   W   |   F   |   P   |   B   ||   J   |   L   |   U   |   Y   |  ; :  | _____
 // _____ |   A   |   R   |   S   |   T   |   G   ||   M   |   N   |   E   |   I   |   O   |  ' "  
 // _____ |   Z   |   X   |   C   |   D   |   V   ||   K   |   H   |  , <  |  . >  |  / ?  | _____
 //                         _____ | _____ | _____ || _____ | _____ | _____
-    colemak_dhm_layer { // 3
       bindings = <
         &trans &kp Q  &kp W  &kp F  &kp P  &kp B &kp J &kp L &kp U     &kp Y   &kp SEMI &trans
         &trans &kp A  &kp R  &kp S  &kp T  &kp G &kp M &kp N &kp E     &kp I   &kp O    &kp SQT
@@ -76,13 +69,11 @@
       >;
     };
 
-
-
+    workman_layer { // 4
 // _____ |   Q   |   D   |   R   |   W   |   B   ||   J   |   F   |   U   |   P   |  ; :  | _____
 // _____ |   A   |   S   |   H   |   T   |   G   ||   Y   |   N   |   E   |   O   |   I   |  ' "  
 // _____ |   Z   |   X   |   M   |   C   |   V   ||   K   |   L   |  , <  |  . >  |  / ?  | _____
 //                         _____ | _____ | _____ || _____ | _____ | _____
-    workman_layer { // 4
       bindings = <
         &trans &kp Q  &kp D  &kp R  &kp W  &kp B &kp J &kp F &kp U     &kp P   &kp SEMI &trans
         &trans &kp A  &kp S  &kp H  &kp T  &kp G &kp Y &kp N &kp E     &kp O   &kp I    &kp SQT
@@ -91,13 +82,11 @@
       >;
     };
 
-
-
+    lower_layer { // 5
 //  ESC  |   F1  |   F2  |   F3  |   F4  |   F5  ||   `   |   !   |   &   |   @   |   #   |  DEL 
 // _____ |   F6  |   F7  |   F8  |   F9  |  F10  ||   $   |   (   |   {   |   [   |   |   |   ^  
 // _____ |  F11  |  F12  |  F13  |  F14  |  F15  ||   _   |   )   |   }   |   ]   |   \   |   ~
 //                         _____ | _____ | _____ || _____ | ADJUS |  APP  
-    lower_layer { // 5
       bindings = <
         &kp ESC &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp GRAVE &kp EXCL &kp AMPS &kp AT   &kp HASH      &kp DEL
         &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10 &kp DLLR  &kp LPAR &kp LBRC &kp LBKT &kp PIPE      &kp CARET
@@ -106,13 +95,11 @@
       >;
     };
 
-
-
+    raise_layer { // 6
 //  ESC  |  HOME |   UP  |  END  | ..... | MOUS2 ||  PGUP |   7   |   8   |   9   |   /   |   *  
 //  CAPS |  LEFT |  DOWN | RIGHT | MOUSU | MOUS1 ||  PGDN |   4   |   5   |   6   |   -   |   +  
 // NUMLK | ..... | ..... | MOUSL | MOUSD | MOUSR ||   .   |   1   |   2   |   3   |   %   |   =  
 //                         _____ | ADJUS | _____ || KENTR | _____ |   0  
-    raise_layer { // 6
       bindings = <
         &kp ESC     &kp HOME &kp UP   &kp END      &none    &none     &kp PG_UP  &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_DIVIDE &kp KP_MULTIPLY
         &kp CAPS    &kp LEFT &kp DOWN &kp RIGHT    &none    &none     &kp PG_DN  &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp MINUS     &kp PLUS
@@ -121,13 +108,11 @@
       >;
     };
 
-
-
+    adjust_layer { // 7
 // _____ |  STOP | VOLUP |  PLAY | RGBBU | RGBEU ||  BT1  |  BT2  |  BT3  |  BT4  |  BT5  | RESET
 // _____ |  PREV | VOLDN |  NEXT | RGBBD | RGBED || BTCLR | ..... | ..... | ..... | ..... |  BOOT
 // _____ | ..... | ..... | ..... | ..... |  RGB  || QWERT | DVORK | CLMAK | CLDHM | WRKMN | .....
 //                         _____ | _____ | _____ || _____ | _____ | _____
-    adjust_layer { // 7
       bindings = <
         &trans &kp C_STOP &kp C_VOL_UP &kp C_PLAY_PAUSE &rgb_ug RGB_BRI &rgb_ug RGB_EFR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &reset
         &trans &kp C_PREV &kp C_VOL_DN &kp C_NEXT       &rgb_ug RGB_BRD &rgb_ug RGB_EFF &bt BT_CLR   &none        &none        &none        &none &bootloader
@@ -135,9 +120,6 @@
         &trans &trans     &trans       &trans           &trans          &trans
       >;
     };
-
-
-*/
   };
 };
 
