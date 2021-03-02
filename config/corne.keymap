@@ -17,6 +17,8 @@
   keymap {
     compatible = "zmk,keymap";
 
+
+
     default_layer { // 0
 //  TAB  |   Q   |   W   |   E   |   R   |   T   ||   Y   |   U   |   I   |   O   |   P   | BKSPC
 // CNTRL |   A   |   S   |   D   |   F   |   G   ||   H   |   J   |   K   |   L   |  ; :  |  ' "
@@ -30,6 +32,8 @@
       >;
     };
 
+
+/*
     dvorak_layer { // 1
 // _____ |  ' "  |  , <  |  . >  |   P   |   Y   ||   F   |   G   |   C   |   R   |   L   | _____
 // _____ |   A   |   O   |   E   |   U   |   I   ||   D   |   H   |   T   |   N   |   S   |  / ? 
@@ -42,6 +46,8 @@
         &trans &trans   &trans    &trans  &trans &trans
       >;
     };
+
+
 
     colemak_layer { // 2
 // _____ |   Q   |   W   |   F   |   P   |   G   ||   J   |   L   |   U   |   Y   |  ; :  | _____
@@ -56,6 +62,8 @@
       >;
     };
 
+
+
     colemak_dhm_layer { // 3
 // _____ |   Q   |   W   |   F   |   P   |   B   ||   J   |   L   |   U   |   Y   |  ; :  | _____
 // _____ |   A   |   R   |   S   |   T   |   G   ||   M   |   N   |   E   |   I   |   O   |  ' "  
@@ -68,6 +76,8 @@
         &trans &trans &trans &trans &trans &trans
       >;
     };
+
+
 
     workman_layer { // 4
 // _____ |   Q   |   D   |   R   |   W   |   B   ||   J   |   F   |   U   |   P   |  ; :  | _____
@@ -82,6 +92,8 @@
       >;
     };
 
+
+
     lower_layer { // 5
 //  ESC  |   F1  |   F2  |   F3  |   F4  |   F5  ||   `   |   !   |   &   |   @   |   #   |  DEL 
 // _____ |   F6  |   F7  |   F8  |   F9  |  F10  ||   $   |   (   |   {   |   [   |   |   |   ^  
@@ -94,6 +106,8 @@
         &trans  &trans  &trans  &tran   &mo 7   &kp K_APP
       >;
     };
+
+
 
     raise_layer { // 6
 //  ESC  |  HOME |   UP  |  END  | ..... | MOUS2 ||  PGUP |   7   |   8   |   9   |   /   |   *  
@@ -108,6 +122,8 @@
       >;
     };
 
+
+
     adjust_layer { // 7
 // _____ |  STOP | VOLUP |  PLAY | RGBBU | RGBEU ||  BT1  |  BT2  |  BT3  |  BT4  |  BT5  | RESET
 // _____ |  PREV | VOLDN |  NEXT | RGBBD | RGBED || BTCLR | ..... | ..... | ..... | ..... |  BOOT
@@ -120,6 +136,9 @@
         &trans &trans     &trans       &trans           &trans          &trans
       >;
     };
+
+
+*/
   };
 };
 
