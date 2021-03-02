@@ -9,6 +9,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+#define TODO
+
 {
   keymap {
     compatible = "zmk,keymap";
@@ -19,18 +21,28 @@
 // CNTRL |   A   |   S   |   D   |   F   |   G   ||   H   |   J   |   K   |   L   |  ; :  |  ' "
 // LSHFT |   Z   |   X   |   C   |   V   |   B   ||   N   |   M   |  , <  |  . >  |  / ?  | RSHFT
 //                          ALT  | LOWER | SPACE || ENTER | RAISE |  GUI
-    default_layer {
-
+    default_layer { // 0
+      bindings = <
+        &kp TAB   &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp BSPC
+        &kp LCTRL &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMI &kp SQT
+        &kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+        &kp LALT &mo 5 &kp SPACE &kp RET &mo 6 &kp LGUI
+      >;
     };
 
 
 
 // _____ |  ' "  |  , <  |  . >  |   P   |   Y   ||   F   |   G   |   C   |   R   |   L   | _____
 // _____ |   A   |   O   |   E   |   U   |   I   ||   D   |   H   |   T   |   N   |   S   |  / ? 
-// _____ |   Z   |   X   |   C   |   V   |   B   ||   B   |   M   |   W   |   V   |   Z   | _____
+// _____ |  ; :  |   Q   |   J   |   K   |   X   ||   B   |   M   |   W   |   V   |   Z   | _____
 //                         _____ | _____ | _____ || _____ | _____ | _____
-    _dvorak_layer {
-
+    _dvorak_layer { // 1
+      bindings = <
+        &trans &kp SQT &kp COMMQ &kp DOT &kp P &kp Y &kp F &kp G &kp C &kp R &kp L &trans
+        &trans &kp A &kp O &kp E &kp U &kp I &kp D &kp H &kp T &kp N &kp S &kp FSLH
+        &trans &kp SEMI &kp Q &kp J &kp K &kp X &kp B &kp M &kp W &kp V &kp Z &trans
+        &trans &trans &trans &trans &trans &trans
+      >;
     };
 
 
@@ -39,8 +51,13 @@
 // _____ |   A   |   R   |   S   |   T   |   D   ||   H   |   N   |   E   |   I   |   O   |  ' "  
 // _____ |   Z   |   X   |   C   |   V   |   B   ||   K   |   M   |  , <  |  . >  |  / ?  | _____
 //                         _____ | _____ | _____ || _____ | _____ | _____
-    _colemak_layer {
-
+    _colemak_layer { // 2
+      bindings = <
+        &trans &kp Q &kp W &kp F &kp P &kp G &kp J &kp L &kp U &kp Y &kp SEMI &trans
+        &trans &kp A &kp R &kp S &kp T &kp D &kp H &kp N &kp E &kp I &kp O &kp SQT
+        &trans &kp Z &kp X &kp C &kp V &kp B &kp K &kp M &kp COMMA &kp DOT &kp FSLH &trans
+        &trans &trans &trans &trans &trans &trans
+      >;
     };
 
 
@@ -49,8 +66,13 @@
 // _____ |   A   |   R   |   S   |   T   |   G   ||   M   |   N   |   E   |   I   |   O   |  ' "  
 // _____ |   Z   |   X   |   C   |   D   |   V   ||   K   |   H   |  , <  |  . >  |  / ?  | _____
 //                         _____ | _____ | _____ || _____ | _____ | _____
-    _colemak_dhm_layer {
-
+    _colemak_dhm_layer { // 3
+      bindings = <
+        &trans &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y &kp SEMI &trans
+        &trans &kp A &kp R &kp S &kp T &kp G &kp M &kp N &kp E &kp I &kp O &kp SQT
+        &trans &kp Z &kp X &kp C &kp D &kp V &kp K &kp H &kp COMMA &kp DOT &kp FSLH &trans
+        &trans &trans &trans &trans &trans &trans
+      >;
     };
 
 
@@ -59,8 +81,13 @@
 // _____ |   A   |   S   |   H   |   T   |   G   ||   Y   |   N   |   E   |   O   |   I   |  ' "  
 // _____ |   Z   |   X   |   M   |   C   |   V   ||   K   |   L   |  , <  |  . >  |  / ?  | _____
 //                         _____ | _____ | _____ || _____ | _____ | _____
-    _workman_layer {
-
+    _workman_layer { // 4
+      bindings = <
+        &trans &kp Q &kp D &kp R &kp W &kp B &kp J &kp F &kp U &kp P &kp SEMI &trans
+        &trans &kp A &kp S &kp H &kp T &kp G &kp Y &kp N &kp E &kp O &kp I &kp SQT
+        &trans &kp Z &kp X &kp M &kp C &kp V &kp K &kp L &kp COMMA &kp DOT &kp FSLH &trans
+        &trans &trans &trans &trans &trans &trans
+      >;
     };
 
 
@@ -69,8 +96,13 @@
 // _____ |   F6  |   F7  |   F8  |   F9  |  F10  ||   $   |   (   |   {   |   [   |   |   |   ^  
 // _____ |  F11  |  F12  |  F13  |  F14  |  F15  ||   _   |   )   |   }   |   ]   |   \   |   ~
 //                         _____ | _____ | _____ || _____ | ADJUS |  APP  
-    lower_layer {
-
+    lower_layer { // 5
+      bindings = <
+        &kp ESC &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp GRAVE &kp EXCL &kp AMPS &kp AT &kp HASH &kp DEL
+        &trans &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp DLLR &kp LPAR &kp LBRC &kp LBKT &kp PIPE &kp CARET
+        &trans &kp F11 &kp F12 &kp F13 &kp F14 &kp F15 &kp UNDER &kp RPAR &kp RBRC &kp RBKT &kp BACKSLASH &kp TILDE
+        &trans &trans &trans &tran &mo 7 &kp K_APP
+      >;
     };
 
 
@@ -79,8 +111,12 @@
 //  CAPS |  LEFT |  DOWN | RIGHT | MOUSU | MOUS1 ||  PGDN |   4   |   5   |   6   |   -   |   +  
 // NUMLK | ..... | ..... | MOUSL | MOUSD | MOUSR ||   .   |   1   |   2   |   3   |   %   |   =  
 //                         _____ | ADJUS | _____ || KENTR | _____ |   0  
-    raise_layer {
-
+    raise_layer { // 6
+      bindings = <
+        &kp ESC &kp HOME &kp UP &kp END &none &kp TODO &kp PG_UP &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_DIVIDE &kp KP_MULTIPLY
+        &kp CAPS &kp LEFT &kp DOWN &kp RIGHT &kp TODO &kp TODO &kp PG_DN &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp MINUS &kp PLUS
+        &kp KP_NLCK &none  &none &kp TODO &kp TODO &kp TODO &kp KP_DOT &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp PERCENT &kp KP_EQUAL
+      >;
     };
 
 
@@ -89,14 +125,32 @@
 // _____ |  PREV | VOLDN |  NEXT | ..... | ..... || ..... | ..... | ..... | ..... | ..... | .....
 // _____ | ..... | ..... | ..... | ..... | RGBON || QWERT | DVORK | CLMAK | CLDHM | WRKMN | .....
 //                         _____ | _____ | _____ || _____ | _____ | _____
-    adjust_layer {
-
+    adjust_layer { // 7
+      bindings = <
+        &trans &kp C_STOP &kp C_VOL_UP &kp C_PLAY_PAUSE &none &none &none &none &none &none &none &none
+        &trans &kp C_PREV &kp C_VOL_DN &kp C_NEXT &none &none &none &none &none &none &none &none
+        &trans &none &none &none &none &kp TODO &to 1 &to 2 &to 3 &to 4 &to 5 &none
+        &trans &trans &trans &trans &trans &trans
+      >;
     };
 
 
 
   };
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* DEFAULT FIRMWARE BELOW THIS LINE ********************************************
