@@ -31,6 +31,7 @@
         &kp LALT  &mo 5 &kp SPACE &kp RET &mo 6 &kp LGUI
       >;
     };
+/*
 
 
 
@@ -138,7 +139,7 @@
     };
 
 
-
+*/
   };
 };
 
