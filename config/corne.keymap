@@ -91,7 +91,6 @@
     };
 
 
-/*
     lower_layer { // 5
 //  ESC  |   F1  |   F2  |   F3  |   F4  |   F5  ||   `   |   !   |   &   |   @   |   #   |  DEL 
 // _____ |   F6  |   F7  |   F8  |   F9  |  F10  ||   $   |   (   |   {   |   [   |   |   |   ^  
@@ -106,7 +105,7 @@
     };
 
 
-
+/*
     raise_layer { // 6
 //  ESC  |  HOME |   UP  |  END  | ..... | MOUS2 ||  PGUP |   7   |   8   |   9   |   /   |   *  
 //  CAPS |  LEFT |  DOWN | RIGHT | MOUSU | MOUS1 ||  PGDN |   4   |   5   |   6   |   -   |   +  
