@@ -1,4 +1,7 @@
 /* CUSTOM FIRMWARE BELOW THIS LINE *********************************************
+   https://zmkfirmware.dev/docs/features/keymaps
+   https://zmkfirmware.dev/docs/behaviors/key-press
+   https://zmkfirmware.dev/docs/behaviors/layers
 *******************************************************************************/
 /*
  * Firmware modification by Frosthaven
