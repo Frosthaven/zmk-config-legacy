@@ -126,15 +126,15 @@
 
 
 
-// _____ |  STOP | VOLUP |  PLAY | ..... | ..... ||  BT1  |  BT2  |  BT3  |  BT4  |  BT5  | RESET
-// _____ |  PREV | VOLDN |  NEXT | ..... | ..... || BTCLR | ..... | ..... | ..... | ..... |  BOOT
-// _____ | ..... | ..... | ..... | ..... | RGBON || QWERT | DVORK | CLMAK | CLDHM | WRKMN | .....
+// _____ |  STOP | VOLUP |  PLAY | RGBBU | RGBEU ||  BT1  |  BT2  |  BT3  |  BT4  |  BT5  | RESET
+// _____ |  PREV | VOLDN |  NEXT | RGBBD | RGBED || BTCLR | ..... | ..... | ..... | ..... |  BOOT
+// _____ | ..... | ..... | ..... | ..... |  RGB  || QWERT | DVORK | CLMAK | CLDHM | WRKMN | .....
 //                         _____ | _____ | _____ || _____ | _____ | _____
     adjust_layer { // 7
       bindings = <
-        &trans &kp C_STOP &kp C_VOL_UP &kp C_PLAY_PAUSE &none &none &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &reset
-        &trans &kp C_PREV &kp C_VOL_DN &kp C_NEXT &none &none &bt BT_CLR &none &none &none &none &bootloader
-        &trans &none &none &none &none &kp TODO &to 1 &to 2 &to 3 &to 4 &to 5 &none
+        &trans &kp C_STOP &kp C_VOL_UP &kp C_PLAY_PAUSE &kp RGB_BRI &kp RGB_EFR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &reset
+        &trans &kp C_PREV &kp C_VOL_DN &kp C_NEXT &kp RGB_BRD &kp RGB_EFF &bt BT_CLR &none &none &none &none &bootloader
+        &trans &none &none &none &none &kp RGB_TOG &to 1 &to 2 &to 3 &to 4 &to 5 &none
         &trans &trans &trans &trans &trans &trans
       >;
     };
