@@ -1,4 +1,5 @@
 /* CUSTOM FIRMWARE BELOW THIS LINE *********************************************
+   https://zmkfirmware.dev/docs/codes/
    https://zmkfirmware.dev/docs/features/keymaps
    https://zmkfirmware.dev/docs/behaviors/key-press
    https://zmkfirmware.dev/docs/behaviors/layers
@@ -119,6 +120,7 @@
         &kp ESC &kp HOME &kp UP &kp END &none &kp TODO &kp PG_UP &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_DIVIDE &kp KP_MULTIPLY
         &kp CAPS &kp LEFT &kp DOWN &kp RIGHT &kp TODO &kp TODO &kp PG_DN &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp MINUS &kp PLUS
         &kp KP_NLCK &none  &none &kp TODO &kp TODO &kp TODO &kp KP_DOT &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp PERCENT &kp KP_EQUAL
+        &trans &mo 7 &trans &kp KP_ENTER &trans &kp KP_N0
       >;
     };
 
