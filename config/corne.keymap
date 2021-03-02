@@ -62,7 +62,6 @@
     };
 
 
-/*
     colemak_dhm_layer { // 3
 // _____ |   Q   |   W   |   F   |   P   |   B   ||   J   |   L   |   U   |   Y   |  ; :  | _____
 // _____ |   A   |   R   |   S   |   T   |   G   ||   M   |   N   |   E   |   I   |   O   |  ' "  
@@ -77,7 +76,7 @@
     };
 
 
-
+/*
     workman_layer { // 4
 // _____ |   Q   |   D   |   R   |   W   |   B   ||   J   |   F   |   U   |   P   |  ; :  | _____
 // _____ |   A   |   S   |   H   |   T   |   G   ||   Y   |   N   |   E   |   O   |   I   |  ' "  
