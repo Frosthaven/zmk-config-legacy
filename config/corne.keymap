@@ -15,7 +15,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &mt {
-  tapping-term-ms = <175>;
+  tapping-term-ms = <200>;
 };
 
 / {
