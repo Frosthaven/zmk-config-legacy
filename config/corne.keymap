@@ -102,25 +102,25 @@
 // _____ |  F11  |  F12  |  F13  |  F14  |  F15  ||   _   |   )   |   }   |   ]   |   \   |   ~
 //                         _____ | _____ | _____ || _____ | ADJUS |  APP  
       bindings = <
-        &kp ESC           &kp F1    &kp F2  &kp F3  &kp F4  &kp F5  &kp GRAVE &kp EXCL &kp AMPS &kp AT   &kp HASH      &kp DEL
-        &mt LCTRL D       &kp F6  &kp F7  &kp F8  &kp F9  &kp F10 &kp DLLR  &kp LPAR &kp LBRC &kp LBKT &kp PIPE      &kp CARET
-        &mt LSHFT F       &kp F11 &kp F12 &kp F13 &kp F14 &kp F15 &kp UNDER &kp RPAR &kp RBRC &kp RBKT &kp BACKSLASH &kp TILDE
-        &trans            &trans  &trans  &trans  &mo 7   &kp K_APP
+        &kp ESC          &kp F1    &kp F2  &kp F3  &kp F4  &kp F5  &kp GRAVE &kp EXCL &kp AMPS &kp AT   &kp HASH      &kp DEL
+        &mt LCTRL CAPS   &kp F6  &kp F7  &kp F8  &kp F9  &kp F10 &kp DLLR  &kp LPAR &kp LBRC &kp LBKT &kp PIPE      &kp CARET
+        &mt LSHFT KP_NUM &kp F11 &kp F12 &kp F13 &kp F14 &kp F15 &kp UNDER &kp RPAR &kp RBRC &kp RBKT &kp BACKSLASH &kp TILDE
+        &trans           &trans  &trans  &trans  &mo 7   &kp K_APP
       >;
     };
 
 
-/*
+
     raise_layer { // 6
 //  ESC  |  HOME |   UP  |  END  | ..... | MOUS2 ||  PGUP |   7   |   8   |   9   |   /   |   *  
 //  CAPS |  LEFT |  DOWN | RIGHT | MOUSU | MOUS1 ||  PGDN |   4   |   5   |   6   |   -   |   +  
 // NUMLK | ..... | ..... | MOUSL | MOUSD | MOUSR ||   .   |   1   |   2   |   3   |   %   |   =  
 //                         _____ | ADJUS | _____ || KENTR | _____ |   0  
       bindings = <
-        &kp ESC           &kp HOME &kp UP   &kp END      &none    &none     &kp PG_UP  &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_DIVIDE &kp KP_MULTIPLY
-        &mt LCTRL CAPS    &kp LEFT &kp DOWN &kp RIGHT    &none    &none     &kp PG_DN  &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp MINUS     &kp PLUS
-        &mt LSHFT KC_NLCK &none    &none    &none        &none    &none     &kp KP_DOT &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp PERCENT   &kp KP_EQUAL
-        &trans            &mo 7    &trans   &kp KP_ENTER &trans   &kp KP_N0
+        &kp ESC          &kp HOME &kp UP   &kp END      &none    &none     &kp PG_UP  &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_DIVIDE &kp KP_MULTIPLY
+        &mt LCTRL CAPS   &kp LEFT &kp DOWN &kp RIGHT    &none    &none     &kp PG_DN  &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp MINUS     &kp PLUS
+        &mt LSHFT KP_NUM &none    &none    &none        &none    &none     &kp KP_DOT &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp PERCENT   &kp KP_EQUAL
+        &trans           &mo 7    &trans   &kp KP_ENTER &trans   &kp KP_N0
       >;
     };
 
@@ -132,14 +132,14 @@
 // _____ | ..... | ..... | ..... | ..... |  RGB  || QWERT | DVORK | CLMAK | CLDHM | WRKMN | .....
 //                         _____ | _____ | _____ || _____ | _____ | _____
       bindings = <
-        &kp ESC           &kp C_STOP &kp C_VOL_UP &kp C_PLAY_PAUSE &rgb_ug RGB_BRI &rgb_ug RGB_EFR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &reset
-        &mt LCTRL CAPS    &kp C_PREV &kp C_VOL_DN &kp C_NEXT       &rgb_ug RGB_BRD &rgb_ug RGB_EFF &bt BT_CLR   &none        &none        &none        &none        &bootloader
-        &mt LSHFT KC_NLCK &none      &none        &none            &none           &rgb_ug RGB_TOG &to 0        &to 1        &to 2        &to 3        &to 4        &none
-        &trans            &trans     &trans       &trans           &trans          &trans
+        &kp ESC          &kp C_STOP &kp C_VOL_UP &kp C_PLAY_PAUSE &rgb_ug RGB_BRI &rgb_ug RGB_EFR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &reset
+        &mt LCTRL CAPS   &kp C_PREV &kp C_VOL_DN &kp C_NEXT       &rgb_ug RGB_BRD &rgb_ug RGB_EFF &bt BT_CLR   &none        &none        &none        &none        &bootloader
+        &mt LSHFT KP_NUM &none      &none        &none            &none           &rgb_ug RGB_TOG &to 0        &to 1        &to 2        &to 3        &to 4        &none
+        &trans           &trans     &trans       &trans           &trans          &trans
       >;
     };
 
-*/
+
 
   };
 };
