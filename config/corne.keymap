@@ -105,7 +105,7 @@
     };
 
 
-/*
+
     raise_layer { // 6
 //  ESC  |  HOME |   UP  |  END  | ..... | MOUS2 ||  PGUP |   7   |   8   |   9   |   /   |   *  
 //  CAPS |  LEFT |  DOWN | RIGHT | MOUSU | MOUS1 ||  PGDN |   4   |   5   |   6   |   -   |   +  
@@ -120,7 +120,7 @@
     };
 
 
-
+/*
     adjust_layer { // 7
 // _____ |  STOP | VOLUP |  PLAY | RGBBU | RGBEU ||  BT1  |  BT2  |  BT3  |  BT4  |  BT5  | RESET
 // _____ |  PREV | VOLDN |  NEXT | RGBBD | RGBED || BTCLR | ..... | ..... | ..... | ..... |  BOOT
