@@ -120,7 +120,7 @@
     };
 
 
-/*
+
     adjust_layer { // 7
 // _____ |  STOP | VOLUP |  PLAY | RGBBU | RGBEU ||  BT1  |  BT2  |  BT3  |  BT4  |  BT5  | RESET
 // _____ |  PREV | VOLDN |  NEXT | RGBBD | RGBED || BTCLR | ..... | ..... | ..... | ..... |  BOOT
@@ -135,7 +135,7 @@
     };
 
 
-*/
+
   };
 };
 
