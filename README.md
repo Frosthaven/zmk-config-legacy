@@ -18,3 +18,6 @@ This is a personal keymap, with a focus on being familiar to both gamers and dev
   * need to research creating a board overlay
 * Per-key RGB:
   * awaiting feature completion and documentation in ZMK
+
+
+Head over to the [Releases](https://github.com/Frosthaven/zmk-config/releases) page to download the latest version!
