@@ -19,5 +19,6 @@ This is a personal keymap, with a focus on being familiar to both gamers and dev
 * Per-key RGB:
   * awaiting feature completion and documentation in ZMK
 
+### DOWNLOAD
 
 Head over to the [Releases](https://github.com/Frosthaven/zmk-config/releases) page to download the latest version!
