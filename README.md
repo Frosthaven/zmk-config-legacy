@@ -1,7 +1,7 @@
 ### SAMURAI FROM ACCOUNTING (SFA)
 
-This is a [ZMK firmware](https://github.com/zmkfirmware/zmk) configuration for the Corne keyboard.
+This is a [ZMK firmware](https://github.com/zmkfirmware/zmk) configuration for the [Corne keyboard (aka crkbd; helidox)](https://github.com/foostan/crkbd).
 
 ### WHO IS IT FOR?
 
-This layout was designed for developers who game often. Between a logically mapped out symbol pad and WASD focused navigation cluster, this firmware is for anyone who codes by day and slays demons by night.
+This is my personal keymap with a focus on easy symbols for coding with a gaming-oriented wasd navigation cluster design.
