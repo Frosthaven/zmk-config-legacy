@@ -4,7 +4,7 @@ This is a bluetooth-enabled [ZMK firmware](https://github.com/zmkfirmware/zmk) c
 
 ### WHO IS IT FOR?
 
-This is a personal keymap, with a focus on being both gamer and developer friendly. Key highlights:
+This is a personal keymap, with a focus on being familiar to both gamers and developers. Key highlights:
 * WASD+QE navigation cluster that will be familiar to anyone who's played an fps
 * Numpad cluster with expected layout and all finance-related symbology
 * Symbol pad with carefully arranged symbols for quick access
