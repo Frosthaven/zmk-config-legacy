@@ -9,6 +9,7 @@ This is a personal keymap, with a focus on being familiar to both gamers and dev
 * Numpad cluster with expected layout and all finance-related symbology
 * Symbol pad with carefully arranged symbols for quick access
 * Function pad with native F13-F15 to use as you wish
+* Adjustment layer that contains alternate layouts (Dvorak, Colemak, Colemak DHm, Workman), device/bluetooth management, and volume/media controls
 
 ### TODO
 
