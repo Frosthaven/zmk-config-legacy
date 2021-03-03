@@ -1,6 +1,6 @@
 ### SAMURAI FROM ACCOUNTING (SFA) ZMK KEYMAP
 
-This is a bluetooth-enabled [ZMK firmware](https://github.com/zmkfirmware/zmk) configuration for the [Corne keyboard (aka crkbd; helidox)](https://github.com/foostan/crkbd), powered by nice!nano (or compatible) microprocessors.
+This is a bluetooth-enabled [ZMK firmware](https://github.com/zmkfirmware/zmk) configuration for the [Corne keyboard (aka crkbd; helidox)](https://github.com/foostan/crkbd), powered by the [nice!nano](https://www.littlekeyboards.com/products/nice-nano#:~:text=The%20nice!,battery%20is%20a%20good%20fit.) (or compatible) microprocessors.
 
 ### WHO IS IT FOR?
 
