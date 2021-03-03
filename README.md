@@ -1,6 +1,6 @@
 ### SAMURAI FROM ACCOUNTING (SFA)
 
-This is a ZMK firmware configuration for the Corne keyboard.
+This is a [ZMK firmware](https://github.com/zmkfirmware/zmk) configuration for the Corne keyboard.
 
 ### WHO IS IT FOR?
 
