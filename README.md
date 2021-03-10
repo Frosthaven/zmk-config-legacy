@@ -13,12 +13,8 @@ This is a personal keymap, with a focus on being familiar to both gamers and dev
 
 ### TODO
 
-* OLED (battery/bluetooth status):
-  * awaiting feature documentation in ZMK
-* RGB underglow support:
-  * need to research creating a board overlay
 * Per-key RGB:
-  * awaiting feature completion and documentation in ZMK
+  * awaiting feature completion and documentation in ZMK. currently dirty-hacked into rgb_underglow.c on a [https://github.com/Frosthaven/zmk/tree/locality](dev branch of zmk)
 
 ### DOWNLOAD
 
