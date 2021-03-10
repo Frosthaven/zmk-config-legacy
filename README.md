@@ -14,7 +14,7 @@ This is a personal keymap, with a focus on being familiar to both gamers and dev
 ### TODO
 
 * Per-key RGB:
-  * awaiting feature completion and documentation in ZMK. currently dirty-hacked into rgb_underglow.c on a [https://github.com/Frosthaven/zmk/tree/locality](dev branch of zmk)
+  * awaiting feature completion and documentation in ZMK. currently dirty-hacked into rgb_underglow.c on a [dev branch of zmk](https://github.com/Frosthaven/zmk/tree/locality)
 
 ### DOWNLOAD
 
