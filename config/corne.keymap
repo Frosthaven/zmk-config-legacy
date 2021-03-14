@@ -27,6 +27,7 @@
 
 
     default_layer { // 0
+      label = "QWERTY";
 //  TAB  |   Q   |   W   |   E   |   R   |   T   ||   Y   |   U   |   I   |   O   |   P   | BKSPC
 // CNTRL |   A   |   S   |   D   |   F   |   G   ||   H   |   J   |   K   |   L   |  ; :  |  ' "
 // LSHFT |   Z   |   X   |   C   |   V   |   B   ||   N   |   M   |  , <  |  . >  |  / ?  | RSHFT
@@ -42,6 +43,7 @@
 
 
     dvorak_layer { // 1
+      label = "DVORAK";
 // _____ |  ' "  |  , <  |  . >  |   P   |   Y   ||   F   |   G   |   C   |   R   |   L   | _____
 // _____ |   A   |   O   |   E   |   U   |   I   ||   D   |   H   |   T   |   N   |   S   |  / ? 
 // _____ |  ; :  |   Q   |   J   |   K   |   X   ||   B   |   M   |   W   |   V   |   Z   | _____
@@ -56,6 +58,7 @@
 
 
     colemak_layer { // 2
+      label = "COLEMAK";
 // _____ |   Q   |   W   |   F   |   P   |   G   ||   J   |   L   |   U   |   Y   |  ; :  | _____
 // _____ |   A   |   R   |   S   |   T   |   D   ||   H   |   N   |   E   |   I   |   O   |  ' "  
 // _____ |   Z   |   X   |   C   |   V   |   B   ||   K   |   M   |  , <  |  . >  |  / ?  | _____
@@ -70,6 +73,7 @@
 
 
     colemak_dhm_layer { // 3
+      label = "COLEDHM";
 // _____ |   Q   |   W   |   F   |   P   |   B   ||   J   |   L   |   U   |   Y   |  ; :  | _____
 // _____ |   A   |   R   |   S   |   T   |   G   ||   M   |   N   |   E   |   I   |   O   |  ' "  
 // _____ |   Z   |   X   |   C   |   D   |   V   ||   K   |   H   |  , <  |  . >  |  / ?  | _____
@@ -85,6 +89,7 @@
 
 
     workman_layer { // 4
+      label = "WORKMAN";      
 // _____ |   Q   |   D   |   R   |   W   |   B   ||   J   |   F   |   U   |   P   |  ; :  | _____
 // _____ |   A   |   S   |   H   |   T   |   G   ||   Y   |   N   |   E   |   O   |   I   |  ' "  
 // _____ |   Z   |   X   |   M   |   C   |   V   ||   K   |   L   |  , <  |  . >  |  / ?  | _____
@@ -99,6 +104,7 @@
 
 
     lower_layer { // 5
+      label = "SYMBOLS";
 //  ESC  |   F1  |   F2  |   F3  |   F4  |   F5  ||   `   |   !   |   &   |   @   |   #   |  DEL 
 // _____ |   F6  |   F7  |   F8  |   F9  |  F10  ||   $   |   (   |   {   |   [   |   |   |   ^  
 // _____ |  F11  |  F12  |  F13  |  F14  |  F15  ||   _   |   )   |   }   |   ]   |   \   |   ~
@@ -114,6 +120,7 @@
 
 
     raise_layer { // 6
+      label = "NUMPAD";
 //  ESC  |  HOME |   UP  |  END  | ..... | MOUS2 ||  PGUP |   7   |   8   |   9   |   /   |   *  
 //  CAPS |  LEFT |  DOWN | RIGHT | MOUSU | MOUS1 ||  PGDN |   4   |   5   |   6   |   -   |   +  
 // NUMLK | ..... | ..... | MOUSL | MOUSD | MOUSR ||   .   |   1   |   2   |   3   |   %   |   =  
@@ -129,6 +136,7 @@
 
 
     adjust_layer { // 7
+      label = "SYSTEM";
 // BTCLR |  STOP | VOLUP |  PLAY | RGBBU | RGBEU ||  BT1  |  BT2  |  BT3  |  BT4  |  BT5  | BTCLR
 //  BOOT |  PREV | VOLDN |  NEXT | RGBBD | RGBED || OUTPT | ..... | ..... | ..... | ..... |  BOOT
 // RESET | ..... | ..... | ..... | ..... |  RGB  || QWERT | DVORK | CLMAK | CLDHM | WRKMN | RESET
