@@ -21,6 +21,15 @@
 };
 
 / {
+
+  macros {
+    // necessary for mac capslock to trigger
+    ZMK_MACRO(macro_caps,
+      tap-ms = <200>;
+      bindings = <&kp CAPS>;
+    )
+  };
+
   keymap {
     compatible = "zmk,keymap";
 
@@ -111,7 +120,7 @@
 //                         _____ | _____ | _____ || _____ | ADJUS |  APP  
       bindings = <
         &kp ESC          &kp F1    &kp F2  &kp F3  &kp F4  &kp F5  &kp GRAVE &kp EXCL &kp AMPS &kp AT   &kp HASH      &kp DEL
-        &mt LCTRL CAPS   &kp F6  &kp F7  &kp F8  &kp F9  &kp F10 &kp DLLR  &kp LPAR &kp LBRC &kp LBKT &kp PIPE      &kp CARET
+        &macro_caps   &kp F6  &kp F7  &kp F8  &kp F9  &kp F10 &kp DLLR  &kp LPAR &kp LBRC &kp LBKT &kp PIPE      &kp CARET
         &mt LSHFT KP_NUM &kp F11 &kp F12 &kp F13 &kp F14 &kp F15 &kp UNDER &kp RPAR &kp RBRC &kp RBKT &kp BACKSLASH &kp TILDE
         &trans           &trans  &trans  &trans  &mo 7   &kp K_APP
       >;
